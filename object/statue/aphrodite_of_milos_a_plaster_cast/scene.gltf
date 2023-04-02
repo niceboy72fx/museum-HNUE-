@@ -1,0 +1,500 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        364.8918762207031,
+        1163.4954833984375,
+        771.081787109375
+      ],
+      "min": [
+        -412.4801025390625,
+        -892.327880859375,
+        -650.4512939453125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999435544013977,
+        0.9999563097953796,
+        0.9999832510948181
+      ],
+      "min": [
+        -0.9999873042106628,
+        -0.9995169043540955,
+        -0.9999083876609802
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9997298717498779,
+        0.9998061060905457,
+        0.9990929961204529,
+        1.0
+      ],
+      "min": [
+        -0.9999544024467468,
+        -0.9999744296073914,
+        -0.9999927878379822,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9890099763870239,
+        0.9936400055885315
+      ],
+      "min": [
+        0.009890000335872173,
+        0.0038999998942017555
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 337701,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        394.6757507324219,
+        1175.014892578125,
+        768.0858764648438
+      ],
+      "min": [
+        -407.8022766113281,
+        -897.177001953125,
+        -650.4512939453125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2359152,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999509453773499,
+        0.9999976754188538,
+        0.9999932646751404
+      ],
+      "min": [
+        -0.9999971985816956,
+        -0.9993089437484741,
+        -0.9998934864997864
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9994550943374634,
+        0.9998888373374939,
+        0.9999745488166809,
+        1.0
+      ],
+      "min": [
+        -0.9999677538871765,
+        -0.9999054074287415,
+        -0.9999918341636658,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9960899949073792,
+        0.986270010471344
+      ],
+      "min": [
+        0.04830000177025795,
+        0.0038999998942017555
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1350804,
+      "componentType": 5125,
+      "count": 334767,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3145536,
+      "componentType": 5126,
+      "count": 12006,
+      "max": [
+        335.08416748046875,
+        981.556884765625,
+        669.926025390625
+      ],
+      "min": [
+        -406.7909240722656,
+        -811.083251953125,
+        -649.5720825195313
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3289608,
+      "componentType": 5126,
+      "count": 12006,
+      "max": [
+        0.9997127652168274,
+        0.9992443919181824,
+        0.9997339248657227
+      ],
+      "min": [
+        -0.9999873042106628,
+        -0.9858629107475281,
+        -0.9998934864997864
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2097024,
+      "componentType": 5126,
+      "count": 12006,
+      "max": [
+        0.9920386075973511,
+        0.9998061060905457,
+        0.9993699789047241,
+        1.0
+      ],
+      "min": [
+        -0.9994998574256897,
+        -0.9999054074287415,
+        -0.9984490275382996,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 12006,
+      "max": [
+        0.9797000288963318,
+        0.9610599875450134
+      ],
+      "min": [
+        0.0038999998942017555,
+        0.005770000163465738
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2689872,
+      "componentType": 5125,
+      "count": 44244,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Virtual Museums of Małopolska (https://sketchfab.com/WirtualneMuzeaMalopolski)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/aphrodite-of-milos-a-plaster-cast-db693358e0054ccf917bbe763455cd5e",
+      "title": "\"Aphrodite of Milos\", a plaster cast"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2866848,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1144560,
+      "byteOffset": 2866848,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3433680,
+      "byteOffset": 4011408,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2289120,
+      "byteOffset": 7445088,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9734208,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "extensionsUsed": [
+    "KHR_materials_pbrSpecularGlossiness"
+  ],
+  "images": [
+    {
+      "uri": "textures/defaultMat_diffuse.jpeg"
+    },
+    {
+      "uri": "textures/defaultMat_specularGlossiness.png"
+    },
+    {
+      "uri": "textures/defaultMat_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_pbrSpecularGlossiness": {
+          "diffuseFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "diffuseTexture": {
+            "index": 0
+          },
+          "glossinessFactor": 1.0,
+          "specularFactor": [
+            0.2334222561,
+            0.2334222561,
+            0.2334222561
+          ],
+          "specularGlossinessTexture": {
+            "index": 1
+          }
+        }
+      },
+      "name": "defaultMat",
+      "normalTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Rz_123_Afrodyta_z_Melos_119K_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Rz_123_Afrodyta_z_Melos_119K_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Rz_123_Afrodyta_z_Melos_119K_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.0,
+        -2.220446049250313e-16,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        18.66342544555664,
+        112.11831665039064,
+        -37.23852539062497,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        -0.29086000000000006,
+        0.9551700000000001,
+        -0.05519000000000001,
+        0.0,
+        -0.7711,
+        -0.19988000000000003,
+        0.6045200000000001,
+        0.0,
+        0.5663900000000001,
+        0.21839000000000003,
+        0.7946700000000001,
+        0.0,
+        4.076250000000001,
+        1.00545,
+        5.903860000000001,
+        1.0
+      ],
+      "name": "Lamp"
+    },
+    {
+      "name": "Lamp"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "matrix": [
+        0.9725599999999999,
+        0.006600000000000002,
+        -0.23256000000000002,
+        0.0,
+        0.20989000000000002,
+        0.40636000000000005,
+        0.8892800000000001,
+        0.0,
+        0.10037,
+        -0.9136900000000001,
+        0.3938200000000001,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Rz_123_Afrodyta_z_Melos_119K"
+    },
+    {
+      "mesh": 0,
+      "name": "Rz_123_Afrodyta_z_Melos_119K_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Rz_123_Afrodyta_z_Melos_119K_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Rz_123_Afrodyta_z_Melos_119K_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

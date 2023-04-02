@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Museum HNUE</title>
+    <style>
+      body {
+        overflow: hidden;
+        margin: 0px;
+      }
+
+      #menuPanel {
+        background-color: rgba(255, 255, 255, 255);
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 8%;
+        color: white;
+      }
+
+      #PanelTag {
+        position: absolute;
+        top: 30%;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        display: none;
+      }
+
+      #startButton {
+        font-weight: bold;
+        padding: 10px;
+        margin: 24px;
+      }
+      .panel {
+        background-color: white;
+      }
+      .infor {
+        font-family: Arial;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        left: 50%;
+        transform: translate(-50%, -0%);
+        border-radius: 5px;
+      }
+
+      .infor .company {
+        font-size: 2em;
+      }
+
+      .infor .title {
+        font-size: 4em;
+        padding: 20px 20px 20px 20px;
+        font-family: "Poiret One", cursive;
+      }
+
+      .infor .button {
+      }
+
+      .infor .instructions {
+        background-color: white;
+        padding: 30px;
+        margin: 24px 0 0 0;
+      }
+
+      .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo img {
+        width: 200px;
+        height: 200px;
+      }
+
+      .tag {
+        margin: -25px -100px;
+        position: relative;
+        top: 50%;
+        left: 33%;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 50%;
+      }
+
+      #banner {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 32px;
+        width: 100%;
+      }
+
+      #control {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menuPanel">
+      <div class="infor">
+        <div class="title">3D Museum</div>
+        <div>
+          <p>Dùng các phim dưới để di chuyển</p>
+
+          <div class="logo">
+            <img src="./object/image/wsad.jpg" />
+            <p>hoặc</p>
+            <img src="./object/image/arow.jpg" />
+          </div>
+        </div>
+        <div>
+          Khi thấy cửa sổ Pop-up dùng chuột phải vào "Tìm hiểu thêm" chọn 'Open
+          link in New Tab' hoặc "Mở link sang trang mới" để trải nghiệm bài học
+        </div>
+        <h3>Nhấp phím Enter đê bắt đầu</h3>
+      </div>
+      <!-- <div id="tag"></div> -->
+    </div>
+    <!-- <div id="PanelTag">
+      <div class="tag"></div>
+    </div> -->
+    <script type="module" src="bundle.js"></script>
+  </body>
+</html>
