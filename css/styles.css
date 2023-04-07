@@ -91,11 +91,11 @@ Typography
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 1px 0;
 }
 h2 {
   font-size: 1.5em;
-  margin: 0.83em 0;
+  margin: 42px 2px;
 }
 h3 {
   font-size: 1.17em;
@@ -375,7 +375,7 @@ Headings
   color: #fff;
   font-size: 43px;
   font-weight: 100;
-  margin: 20px 0 80px 0;
+  margin: 20px 0 20px 0;
   font-style: italic;
 }
 .features h1 {
@@ -683,8 +683,10 @@ footer p {
   -o-transform: rotate(360deg);
 }
 .footer-credit {
-  font-size: 12px;
+  font-size: 21px;
   text-transform: uppercase;
+  padding-top: 20px;
+  margin-top: 300px;
   letter-spacing: 5px;
 }
 footer a {
