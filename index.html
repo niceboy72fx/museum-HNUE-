@@ -28,32 +28,32 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   </head>
   <body>
-    <section class="hero" id="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h1 class="animated bounceInDown .brand-name">3D Museum</h1>
-            <p class="animated fadeInUpDelay">
+    <section
+      class="parallax-window tm-section tm-section-home bg-black"
+      id="home"
+      data-parallax="scroll"
+      data-image-src="img/intro.png"
+    >
+      <div class="tm-page-content-width tm-padding-b">
+        <div class="index">
+          <div class="text-center tm-site-title-wrap">
+            <h1 class="tm-site-title">3D Museum</h1>
+          </div>
+          <div class="tm-textbox tm-white-bg">
+            <h2 class="tm-green-text tm-section-title">Welcome!</h2>
+            <p>
               Khám phá và trải nghiệm những cảm xúc mới lạ tại Bảo tàng 3D - một
               thế giới đầy màu sắc và sáng tạo, nơi mà tác phẩm nghệ thuật cùng
               công nghệ 3D kết hợp mang đến cho bạn một trải nghiệm tuyệt vời và
               đầy cảm hứng.
             </p>
+            <a href="./museum.html" class="tm-btn">Let's Begin</a>
           </div>
         </div>
-        <div class="row">
-          <div
-            class="col-md-2 col-md-offset-5 text-center"
-            style="height: 20pc"
-          >
-            <div style="padding-bottom: 100px"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <a href="./museum.html" class="download-btn">Bắt đầu nào</a>
-          </div>
-        </div>
+
+        <video autoplay muted loop id="myVideo">
+          <source src="./picWeb/vid.mp4" type="video/mp4" />
+        </video>
       </div>
     </section>
     <section class="download-now" id="getstarted">
@@ -88,6 +88,139 @@
               thức, tạo biểu tượng lịch sử cho học sinh, góp phần nâng cao hiệu
               quả bài học.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="parallax-window tm-section tm-section-services background-intro2"
+      id="services"
+      data-parallax="scroll"
+    >
+      <div class="tm-page-content-width">
+        <div
+          class="tm-translucent-white-bg tm-content-box tm-content-box-right tm-textbox-full-height"
+        >
+          <div class="tm-content-box-inner">
+            <p></p>
+            <div class="media tm-media">
+              <div class="media-body tm-media-body">
+                <p class="tm-small-font">
+                  Bảo tàng ảo là không gian ảo để người dùng có thể trải nghiệm
+                  một cách nhanh nhất, ở bất cứ vị trí nào để tìm hiểu các hiện
+                  vật ở nhiều góc độ, cấp thông tin khác với bảo tàng thật,
+                  người xem có thể được tiếp cận gần với hiện vật
+                </p>
+              </div>
+            </div>
+            <div class="media tm-media">
+              <div class="media-body tm-media-body">
+                <p class="tm-small-font">
+                  Bảo tàng ảo trong dạy học lịch sử không phải là làm thay đổi
+                  hiện thực lịch sử, mà dựa trên thành tựu của khoa học – kĩ
+                  thuật, chúng ta có thể gắn với hiện thực lịch sử hơn thông qua
+                  các hình ảnh được tập hợp, hệ thống hoá, số hoá hoặc mô phỏng
+                  (những sự kiện, hiện tượng phức tạp đã xảy ra cách đây rất xa
+                  xưa).
+                </p>
+              </div>
+            </div>
+            <div class="media tm-media">
+              <div class="media-body tm-media-body">
+                <p class="tm-small-font">
+                  Bảo tàng ảo hỗ trợ giáo viên tổ chức cho học sinh khám phá,
+                  phát hiện dấu vết để tái tạo, khôi phục các sự kiện, hiện
+                  tượng lịch sử trong mỗi bài học. Giáo viên có thể dễ dàng tạo
+                  môi trường học tập trực quan, hấp dẫn
+                </p>
+              </div>
+            </div>
+            <div class="media tm-media">
+              <div class="media-body tm-media-body">
+                <p class="tm-small-font">
+                  Sử dụng thuyết minh giống như bảo tàng thật có tác dụng quan
+                  trọng trong việc tạo nên hứng thú cho học sinh khi tham quan,
+                  học tập với bảo tàng ảo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <!-- <div class="text-center tm-site-title-wrap">
+        <h3
+          style="
+            color: black;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+          "
+        >
+          Các hoạt động học trong tiết học thực nghiệm
+        </h3>
+      </div> -->
+      <div class="full-screen-portfolio" id="portfolio">
+        <div class="container-fluid">
+          <div class="col-md-4 col-sm-6">
+            <div class="portfolio-item">
+              <a href="picWeb/15df8cf4417d9d23c46c9.jpg" data-lightbox="image-1"
+                ><div class="thumb">
+                  <div>
+                    <img class="image" src="picWeb/15df8cf4417d9d23c46c9.jpg" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="portfolio-item">
+              <a href="picWeb/1ac9aef86371bf2fe6607.jpg" data-lightbox="image-1"
+                ><div class="thumb">
+                  <div class="image">
+                    <img class="image" src="picWeb/1ac9aef86371bf2fe6607.jpg" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="portfolio-item">
+              <a href="picWeb/cc8edfb7123ece60972f5.jpg" data-lightbox="image-1"
+                ><div class="thumb">
+                  <div class="image">
+                    <img class="image" src="picWeb/cc8edfb7123ece60972f5.jpg" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="portfolio-item">
+              <a href="picWeb/e21744f98970552e0c612.jpg" data-lightbox="image-1"
+                ><div class="thumb">
+                  <div class="image">
+                    <img class="image" src="picWeb/e21744f98970552e0c612.jpg" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="portfolio-item">
+              <a href="picWeb/c94bb34a7ec3a29dfbd26.jpg" data-lightbox="image-1"
+                ><div class="thumb">
+                  <div class="image">
+                    <img class="image" src="picWeb/c94bb34a7ec3a29dfbd26.jpg" />
+                  </div></div
+              ></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="portfolio-item">
+              <a href="picWeb/24713983f40a2854711b4.jpg" data-lightbox="image-1"
+                ><div class="thumb">
+                  <div class="image">
+                    <img class="image" src="picWeb/24713983f40a2854711b4.jpg" />
+                  </div></div
+              ></a>
+            </div>
           </div>
         </div>
       </div>
@@ -151,7 +284,7 @@
     </section>
     <footer>
       <div class="container">
-        <iframe
+        <!-- <iframe
           width="1180"
           height="715"
           src="https://www.youtube.com/embed/v0w5vf7zTzc"
@@ -159,7 +292,7 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe>
+        ></iframe> -->
       </div>
       <div class="container"></div>
       <div class="container">
